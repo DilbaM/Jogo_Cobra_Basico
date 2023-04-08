@@ -5,8 +5,7 @@ from random import randint
 
 pygame.init()
 
-musicaf = pygame.mixer.music.load(
-    "Musicas/X2Download.app - Damassaclan _ Chayco _Contramão_ (Prod. NeoBeats) (128 kbps).mp3")
+musicaf = pygame.mixer.music.load("Musicas/X2Download.app - Damassaclan _ Chayco _Contramão_ (Prod. NeoBeats) (128 kbps).mp3")
 pygame.mixer.music.play(-1)
 
 somp = pygame.mixer.Sound("Musicas/smw_1-up.wav")
